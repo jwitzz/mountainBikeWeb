@@ -1,0 +1,42 @@
+.index-ban {
+    border: 2px solid black;
+    width: 100%;
+    background-color: burlywood;
+    height: 280px;
+}
+
+.nav-links {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(66, 66, 68);
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.intro-sec {
+    margin-top: 60px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.intro-img {
+    margin-top: 70px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-img img {
+    border: 2px solid black;
+    object-fit: fill;
+}
