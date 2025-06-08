@@ -1,4 +1,4 @@
-.index-ban {
+.intro-ban {
     border: 2px solid black;
     width: 100%;
     background-color: burlywood;
@@ -23,6 +23,10 @@
     text-decoration: underline;
 }
 
+.intro-container {
+    border: 2px solid black;
+}
+
 .intro-sec {
     margin-top: 60px;
     border: 2px solid black;
@@ -38,5 +42,16 @@
 
 .intro-img img {
     border: 2px solid black;
-    object-fit: fill;
+    width: 33.3%;
+    height: 300px;
+}
+
+.intro-footer {
+    border: 2px solid black;
+    background-color: rgb(66, 66, 68);
+    width: 100%;
+    height: 120px;
+    margin-top: 150px;
+    color: white;
+    display: flex;
 }
